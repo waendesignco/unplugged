@@ -88,12 +88,18 @@ textarea {
    ========================================================================== */
 
 /* ----- Base Header - Footer Styles ----- */
+
 html {
   height: 100%;
 }
 
 body {
   height: 100%;
+}
+
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
 }
 
 header,
@@ -104,9 +110,10 @@ footer {
   flex-flow: row wrap;
 }
 
-/* ----- Header Styles ----- */
+/* Header Styles */
 
 header {
+  padding: 15px 0;
 }
 
 header .content-wrapper {
@@ -114,14 +121,13 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-}
-
-header figure {
-
+  margin: 0;
 }
 
 .header-divider {
-
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
 }
 
  header nav {
@@ -129,23 +135,65 @@ header figure {
    justify-content: space-around;
    align-items: center;
    flex-flow: row wrap;
+   width: 60%;
  }
 
  header nav ul {
    display: flex;
    justify-content: space-around;
    list-style: none;
+   width: 100%;
+   padding: 0;
+ }
+
+ /* Footer Styles */
+ footer {
+   flex-direction: column;
+ }
+
+ footer .content-wrapper {
+   width: 55%;
+   margin: 50px 0;
+ }
+
+ .footer-content {
+ }
+
+ footer .contact {
+   margin-bottom: 50px;
+   text-align: center;
+ }
+
+ footer p {
+   margin: 0;
+ }
+
+ .social-icons {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+ }
+
+ .social-icons p {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .copyright {
+   margin: 20px 0;
  }
 
  /* ----- Mobile Styles - Homepage ----- */
 
+/* Hero area */
 .hero-area {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
 }
 
+/* Aside */
 aside {
   display: flex;
   justify-content: center;
@@ -158,79 +206,62 @@ aside {
 }
 
 .form {
-
+  width: 88%;
 }
 
 input {
 }
 
+/* Features */
 .features {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
 }
 
-.features-items {
+.features h2 {
+  margin-bottom: 60px;
+}
+
+.features article {
+  width: 63%;
+  margin: 30px 0;
+}
+
+.features .features-items {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-article {
+.features p {
+ margin: 0;
 }
 
-.fontawesome-icon {
-
-}
-
-.features-item-description {
-
-}
-
+/* Reviews */
 .reviews {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
 }
 
-/* Footer */
-
-footer {
-
+.reviews h2 {
+  margin-bottom: 40px;
 }
 
-.footer-content {
-
+.review h3 {
+  width: 55%;
+  margin: 20px 0;
 }
 
-.contact {
-
-}
-
-.social {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.social-icons {
-  display: flex;
-  justify-content: center;
-}
-
-.copyright {
-  display: flex;
-  justify-content: center;
-}
 
 /* ----- Mobile Styles - About ----- */
 .mission {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .map {
@@ -245,10 +276,11 @@ figure {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
-.contact-content {
-
+.contact-content p {
+  margin: 0;
 }
 
 /* ----- Mobile Styles - FAQ ----- */
@@ -256,16 +288,23 @@ figure {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
-faq .content-wrapper {
+.faq .content-wrapper {
+  margin: 50px 0 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
+}
+
+.faq h2 {
+  margin-bottom: 40px;
 }
 
 .faq-content {
-
+  margin-bottom: 50px;
 }
 
 

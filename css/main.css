@@ -85,22 +85,63 @@ textarea {
 
 /* ==========================================================================
    Author's custom styles
-   ========================================================================== */
-
-/* ----- Base Header - Footer Styles ----- */
-
+   ==========================================================================
+/* General Styles */
 html {
   height: 100%;
+  font-size: 16px;
 }
 
 body {
   height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Pippins', sans-serif;
+  font-size: 1.875em;
+}
+
+h3,h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.125em;
+}
+
+p {
+font-size: 0.875em;
+  line-height: 1.285em;
+}
+
+img {
+
+}
+
+figure {
+
+}
+
+address {
+  font-style: normal;
 }
 
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
 }
+
+/* ----- Base Header - Footer Styles ----- */
+
 
 header,
 footer {
@@ -141,7 +182,6 @@ header .content-wrapper {
  header nav ul {
    display: flex;
    justify-content: space-around;
-   list-style: none;
    width: 100%;
    padding: 0;
  }
@@ -201,17 +241,6 @@ aside {
   flex-flow: row wrap;
 }
 
-.form-description {
-
-}
-
-.form {
-  width: 88%;
-}
-
-input {
-}
-
 /* Features */
 .features {
   display: flex;
@@ -254,21 +283,12 @@ input {
   margin: 20px 0;
 }
 
-
 /* ----- Mobile Styles - About ----- */
 .mission {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-}
-
-.map {
-
-}
-
-figure {
-
 }
 
 .contact-section {

@@ -556,6 +556,7 @@ header .content-wrapper {
 
   h2 {
     font-size: 2.25em;
+    line-height: 1.333;
     font-weight: 500;
     margin: 20px 0;
   }
@@ -563,6 +564,7 @@ header .content-wrapper {
   h3,h4 {
     font-size: 1.5em;
     font-weight: 500;
+    line-height: 1.25;
   }
 
   /* Header */
@@ -702,6 +704,10 @@ header .content-wrapper {
       width: 45%;
     }
 
+    .map figure {
+      padding-bottom: 45%;
+    }
+
     .contact-section .content-wrapper h2 {
       width: 80%;
     }
@@ -733,7 +739,7 @@ header .content-wrapper {
 /* Desktop styles here */
 
 /* General Style */
-  .content-wrapper {
+   .content-wrapper {
      max-width: 960px;
      margin: 50px 0;
     }
@@ -743,7 +749,7 @@ header .content-wrapper {
     }
 
     h2 {
-     font-size: 2.5em;
+     font-size: 2.25em;
     }
 
     h3 {
@@ -756,6 +762,7 @@ header .content-wrapper {
 
     p {
      font-size: 1.125em;
+     line-height: 1.333;
     }
 
 /* header */
@@ -822,6 +829,10 @@ header .content-wrapper {
     .mission h2,
     .contact-section .contact-wrapper h2 {
       width: 95%;
+    }
+
+    .map figure {
+      padding-bottom: 38%;
     }
 
     .contact-section .contact-content div {

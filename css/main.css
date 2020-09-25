@@ -229,9 +229,17 @@ header .content-wrapper {
  }
 
  footer .social-icons p {
+   height: 40px;
+   width: 40px;
+   background-color: #527158;
+   border-radius: 50%;
    display: flex;
    justify-content: center;
    align-items: center;
+ }
+
+ footer .fontawesome-icon p i {
+   font-size: 1.3em;
  }
 
  footer .copyright {
